@@ -18,4 +18,4 @@ hashtbl :$(OBJS)
 	$(LD) $(LDFLAGS) -o $@ $(OBJS)
 
 clean :
-	rm -f hashtbl *.obj *.mod *.pdb
+	rm -f hashtbl *.obj *.mod *.pdb *.dwf
